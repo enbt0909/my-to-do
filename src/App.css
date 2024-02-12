@@ -1,0 +1,126 @@
+#root {
+  max-width: 100vw;
+  text-align: center;
+}
+
+.myCustomModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #12242a;
+  background-image: url('../public/svg/stop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  backdrop-filter: blur(10px);
+  border: 20px solid #f00;
+  border-radius: 10px;
+  color: #fff;
+  width: 33rem;
+  height: 33rem;
+  padding: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myCustomModal .button {
+  width: 25%;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  padding: 1rem 5.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: .4rem .2rem;
+  cursor: pointer;
+  border-radius: .4rem;
+}
+
+.myCustomModal .button:hover {
+  background-color: #0069D9;
+}
+
+.myCustomModal .button__box__modal {
+  width: 100%;
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.char__counter {
+  margin-top: 5rem;
+}
+
+button.delete__btn .img__box {
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  /* overflow: hidden; */
+  border-radius: 50%;
+  /* background-color: transparent; */
+  cursor: pointer;
+} 
+
+button.delete__btn .img__box:hover {
+  /* background-color: #111; */
+  border-radius: 50%;
+  padding: 1.5rem;
+  border: .5rem solid #777;
+  transform: scale(.8);
+}
+
+button.delete__btn img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  transition: all .7s;
+}
+
+button.delete__btn img:hover {
+  box-shadow: 0 0 .5rem 2.5rem rgba(119, 119, 119, 0.5);
+  border-radius: 50%;
+  border: none;
+  margin: .5rem;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+/* .read-the-docs {
+  color: #888;
+} */
