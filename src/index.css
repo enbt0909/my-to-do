@@ -34,6 +34,8 @@ html,
 body {
   /* display: flex;
   place-items: center; */
+  background-image: url('https://source.unsplash.com/random');
+  background-size: cover;
   min-width: 33.3rem;
   min-height: 100vh;
   font-size: 1.6rem;
@@ -51,6 +53,7 @@ p {
 }
 
 button {
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;  

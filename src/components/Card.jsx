@@ -42,7 +42,6 @@ function Card(props) {
             <h2 style={{ color: '#fff' }}>{/*message*/}</h2>
             <div className="button__box__modal">
               <button className="button" onClick={closeModal}>nicht löschen</button>
-              <span >oder doch</span>
               <button className="button" onClick={confirmDelete}>löschen</button>
             </div>
           </Modal>

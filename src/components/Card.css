@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
+  border-radius: .8rem;
   position: relative;
   background-color: #fff;
 }
@@ -75,10 +76,9 @@ button.delete__btn .img__box:hover {
   position: relative;
   top: -5%;
   border-radius: 0 0 15% 15%;
-  background-color: #5ea2e6;
+  /* background-color: #5ea2e6; */
   font-size: 1.6rem;
   font-weight: 300;
-  color: #fff;
   text-shadow: -.1rem 0.1rem .3rem #333, -.1rem -0.1rem .2rem #fff;
 }
 .card__title__2 {
