@@ -54,7 +54,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;  
-  border: .1rem solid transparent;
+  border: .5rem solid transparent;
   padding: 1rem;
   /* margin-left: 2rem; */
   /* font-size: 1rem; */
@@ -67,10 +67,10 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: .4rem auto -webkit-focus-ring-color;
-}
+} */
 
 /* @media (prefers-color-scheme: light) {
   :root {
