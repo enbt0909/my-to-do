@@ -11,7 +11,7 @@
 }
 
 .input-field {
-  width: 75%;
+  width: 65%;
   border: .1rem solid transparent;
   text-align: center;
   outline: none;
@@ -49,9 +49,15 @@
   justify-content: center;
   align-items: center;
   color: #0f0;
-  position: absolute;
+  /* position: absolute; */
   padding: 0;
   width: 10%;
-  height: 4rem;
+  height: 5vh;
   background-color: #111;
 }
+
+/* .char__counter span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0f0;
+} */
