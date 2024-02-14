@@ -4,7 +4,6 @@ import Card from './components/Card';
 import './components/Card.css';
 import Input from './components/Input';
 
-
 function App() {
   const [cards, setCards] = useState(() => {
     const savedCards = localStorage.getItem('cards');

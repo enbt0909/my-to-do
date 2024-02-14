@@ -54,6 +54,12 @@
   background-color: #111;
 }
 
+.saved {
+  background-color: #fff;
+  color: #4d8ac9;
+  font-weight: 900;
+}
+
 /* .char__counter span {
   font-size: 1.6rem;
   font-weight: 700;
