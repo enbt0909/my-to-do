@@ -37,6 +37,7 @@ body {
   background-image: url('https://source.unsplash.com/random');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   min-width: 33.3rem;
   min-height: 100vh;
   font-size: 1.6rem;
