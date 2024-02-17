@@ -4,6 +4,18 @@ import Card from './components/Card';
 import './components/Card.css';
 import Input from './components/Input';
 
+window.onload = function() {
+  const today = new Date().toDateString();
+
+  // Prüfen, ob der Benutzer die Meldung bereits heute gesehen hat
+  if (localStorage.getItem('updateMessageShown') !== today) {
+      alert("Für eine bessere Nutzererfahrung gab es ein neues Update. am 17.02.2024 ");
+
+      // Setzen Sie das Datum, an dem der Benutzer die Meldung gesehen hat
+      localStorage.setItem('updateMessageShown', today);
+  }
+}
+
 function App() {
   const [cards, setCards] = useState(() => {
     const savedCards = localStorage.getItem('cards');
