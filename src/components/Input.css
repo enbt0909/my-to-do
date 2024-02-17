@@ -9,8 +9,6 @@
   right: 0;
   z-index: 2;
   border: solid 1.6rem #4d8ac9;
-  /* outline: none; */
-  /* margin: 0; */
 }
 
 .input-field {
@@ -26,12 +24,9 @@
   border: none;
   outline: none;
   font-size: 2rem;
-  /* transition: 0.3s; */
-  /* margin: 0; */
 }
 
 .save-button {
-  /* border-radius: 0; */
   width: 25%;
   font-size: 1.6rem;
   background-color: #4d8ac9;

@@ -19,9 +19,15 @@ function Input(props) {
     }, 1000);
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleSave();
+    }
+  };
+
   return (
     <div className="input-container">
-      <input type="text" value={text} onChange={handleChange} className="input-field" placeholder='hier eingeben und' />
+      <input type="text" value={text} onChange={handleChange} onKeyPress={handleKeyPress} className="input-field" placeholder='hier eingeben und' />
       <p className='char__counter' style={{ fontSize: '16px' }}>{text.length}</p>
       <button onClick={handleSave} className="save-button">Speichern</button>
       {message && <p className='saved'>{message}</p>}
