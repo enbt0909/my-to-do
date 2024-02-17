@@ -7,11 +7,9 @@ import Input from './components/Input';
 window.onload = function() {
   const today = new Date().toDateString();
 
-  // Prüfen, ob der Benutzer die Meldung bereits heute gesehen hat
   if (localStorage.getItem('updateMessageShown') !== today) {
-      alert("Für eine bessere Nutzererfahrung gab es ein neues Update. am 17.02.2024 ");
+      alert("Für eine bessere Nutzererfahrung gab es am 17.02.2024 ein neues Update.");
 
-      // Setzen Sie das Datum, an dem der Benutzer die Meldung gesehen hat
       localStorage.setItem('updateMessageShown', today);
   }
 }

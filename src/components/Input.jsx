@@ -14,7 +14,6 @@ function Input(props) {
     setText('');
     setMessage('GESPEICHERT');
 
-    // Meldung nach 2 Sekunden entfernen
     setTimeout(() => {
       setMessage('');
     }, 1000);

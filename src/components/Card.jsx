@@ -39,7 +39,7 @@ function Card(props) {
             contentLabel="Bestätigungsdialog"
             className="myCustomModal"
           >
-            <h2 style={{ color: '#fff' }}>{/*message*/}</h2>
+            <h2 className='heading__h2' style={{ color: '#333' }}>{message}</h2>
             <div className="button__box__modal">
               <button className="button" onClick={closeModal}>nicht löschen</button>
               <button className="button" onClick={confirmDelete}>löschen</button>

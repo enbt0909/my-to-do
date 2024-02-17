@@ -34,10 +34,12 @@ html,
 body {
   /* display: flex;
   place-items: center; */
-  background-image: url('https://source.unsplash.com/random');
+  /* background-image: url('https://source.unsplash.com/random'); */
+  background-image: url('https://source.unsplash.com/random/3840x2160/?clouds');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   min-width: 33.3rem;
   min-height: 100vh;
   font-size: 1.6rem;
