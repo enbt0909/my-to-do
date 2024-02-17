@@ -27,7 +27,7 @@ function Card(props) {
     <div className={props.className}>
       <div className="paragraph__del__box">
         <div className="card__title">
-          <div>{props.title}</div>
+          <div className='title'>{props.title}</div>
           <button className="delete__btn" onClick={handleDelete}>
             <div className="img__box">
               <img src="/images/icons8-stornieren-188.png" alt="Bild" />
